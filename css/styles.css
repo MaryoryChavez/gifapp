@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* background: #5F3DF0; */
+}
+
+body * {
+  /* outline: 1px solid rgba(131, 27, 27, 0.493); */
+
+}
+
+.cabezera {
+  /* background: #FFEF0C; */
+  padding: 50px 0 20px;
+  border-bottom: 4px solid #031F5B;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 3em;
+  color: #031F5B;
+  margin: 0;
+}
+
+.lateral {
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 15vw;
+  height: 100vh;
+  left: 0;
+  background: url("./../images/lateral1.PNG");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+.lateral2 {
+  left: auto;
+  right: 0 !important;
+  background: url("./../images/lateral2.PNG");
+}
+
+.appboard{
+  width: 70vw;
+  margin: auto;
+}
+
+.gifstable {
+  text-align: center;
+  margin: 50px 50px;
+}
+
+.gif {
+  height: 13vw;
+  width: auto;
+  margin: 10px 10px;
+  border: 10px solid #fff;
+  box-shadow: 0px 0px 18px -10px rgba(0, 0, 0, 0.75);
+  transition: 0.3s all;
+}
+
+.gif:hover {
+  transform: rotate(10deg) scale(1.2);
+  box-shadow: 0px 0px 50px -12px rgba(0, 0, 0, 0.75);
+}
